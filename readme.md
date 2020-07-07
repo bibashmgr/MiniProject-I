@@ -1,1 +1,2 @@
-> This following repo. is a web development project for college's sports meet event.
+> # __GCES sports:__
+> A website for college's sports meet event.
