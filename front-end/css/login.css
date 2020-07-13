@@ -46,6 +46,8 @@ header {
 }
 
 .nav-container {
+    position: fixed;
+    width: 100%;
     background-color: gray;
     clip-path: circle(100px at 97.5% -15%);
     -webkit-clip-path : circle(100px at 97.5% -15%);
@@ -58,8 +60,8 @@ header {
 }
 
 .nav-bar {
-    width: 50%;
-    margin: auto;
+   width: 50%;
+   margin: auto;
 }
 
 .nav-bar ul {
@@ -70,9 +72,34 @@ header {
 
 .nav-bar ul li {
     text-decoration: none;
-    padding: 40px;
+    padding: 35px;
 }
 
 .nav-bar ul li a {
     text-decoration: none;
+    transition: all 0.3s ease 0s;
+    color: aliceblue;
+}
+
+.nav-bar ul li a:hover {
+    color: #0088a9 ;
+}
+
+main {
+
+}
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
 }
