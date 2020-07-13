@@ -49,14 +49,16 @@ header {
     position: fixed;
     width: 100%;
     background-color: gray;
-    clip-path: circle(100px at 97.5% -15%);
-    -webkit-clip-path : circle(100px at 97.5% -15%);
+    clip-path: circle(100px at 97.5% -17.5%);
+    -webkit-clip-path : circle(100px at 97.5% -17.5%);
     transition: all 1s ease-out;
+    pointer-events: none;
 }
 
 .nav-container.open {
-    clip-path: circle(2000px at 97.5% -15%);
-    -webkit-clip-path : circle(2000px at 97.5% -15%);
+    clip-path: circle(2000px at 97.5% -17.5%);
+    -webkit-clip-path : circle(2000px at 97.5% -17.5%);
+    pointer-events: all;
 }
 
 .nav-bar {
