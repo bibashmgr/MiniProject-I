@@ -1,59 +1,59 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 18px;
     color:whitesmoke;
 }
 
-header{
+header {
     background-color: #5e6567;
     text-align: center;
 }
 
-.logo-conatiner{
+.logo-conatiner {
 }
 
-.logo{
+.logo {
     cursor: pointer;
 }
 
-nav{
+nav {
     display: flex;
 }
 
-.nav-bar{
+.nav-bar {
     flex: auto;
 }
 
-.nav-bar ul{
+.nav-bar ul {
     list-style: none;
 }
 
-.nav-bar ul li{
+.nav-bar ul li {
     display: inline-block;
     padding: 10px 50px;
 }
 
-.nav-bar ul li a{
+.nav-bar ul li a {
     text-decoration: none;
     transition: all 0.3s ease 0s;
     color: aliceblue;
 }
 
-.nav-bar ul li a:hover{
+.nav-bar ul li a:hover {
     color: #0088a9 ;
 }
 
-.logo-conatiner{
+.logo-conatiner {
     float: right;
 }
 
-.login{
+.login {
     cursor: pointer;
 }
