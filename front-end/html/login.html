@@ -17,7 +17,7 @@
             <div class="bar">
                 <div class="logo-container">
                     <a class="logo-link" href="./index.html">
-                        <img class="logo" src="../../media/image/logo-full.png" alt="Logo" width="300px" />
+                        <img class="logo" src="../../media/image/logo-full.png" alt="Logo" />
                     </a>
                 </div>
 
@@ -31,7 +31,7 @@
             <div class="nav-container">
                 <div class="nav-bar">
                     <ul class="nava-links">
-                        <li><a href="#" class="nav-link">HOME</a></li>
+                        <li><a href="./index.html" class="nav-link">HOME</a></li>
                         <li><a href="#" class="nav-link">NEWS</a></li>
                         <li><a href="#" class="nav-link">GALLERY</a></li>
                         <li><a href="#" class="nav-link">TEAMS</a></li>
@@ -46,26 +46,33 @@
     </header>
 
     <main>
-        <div class="landing-container">
-            <div class="login-container">
-                <img class="login" src="../../media/image/login02.png" alt="Login" width="50px" />
+
+        <div class="login-container">
+            <div class="login-box">
+                <a class="login-link" href="./login.html">
+                    <img class="login" src="../../media/image/login02.png" alt="Login" />
+                </a>
             </div>
+            
+            <h1>Welcome</h1>
 
-            <div class="form-container">
-                <form>
-                    <label>Email:</label>
-                    <input type="email" value="email" class="email" />
+            <form action="#">
 
-                    <label>Password:</label> 
-                    <input type="password" value="password" class="password" />
+                <p>Email</p>
+                <input type="text" name="" placeholder="Enter Email" />
 
-                    <button type="button" class="login-btn">LOGIN</button>
-                </form>
-            </div>
+                <p>Password</p>
+                <input type="password" name="" placeholder="Enter Password" />
+
+                <input type="submit" value="Login" />
+
+            </form>
+
         </div>
+
     </main>
 
-    <script src="../javascript/login.js">
+    <script type="text/javascript" src="../javascript/login.js">
 
     </script>
     
