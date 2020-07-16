@@ -8,3 +8,9 @@ hamburger.addEventListener('click', () => {
     navlinks.classList.toggle("open");
     main.classList.toggle("open");
 });
+
+function validation(){
+    
+    let email =document.getElementById=('email');
+    let password =document.getElementById=('password');
+}

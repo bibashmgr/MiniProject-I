@@ -56,13 +56,15 @@
             
             <h1>Welcome</h1>
 
-            <form action="#">
+            <form action="#" method="GET" onsubmit="return validation()" id="form" >
 
                 <p>Email</p>
-                <input type="text" name="" placeholder="Enter Email" />
+                <input id="email" type="email" name="email" placeholder="Enter Email" autocomplete="off" required />
+                <span id="email-alert" style="font-style: italic; color: red;"></span>
 
                 <p>Password</p>
-                <input type="password" name="" placeholder="Enter Password" />
+                <input id="password" type="password" name="password" placeholder="Enter Password" autocomplete="off" required />
+                <span id="password-alert" style="font-style: italic; color: red;"></span>
 
                 <input type="submit" value="Login" />
 
