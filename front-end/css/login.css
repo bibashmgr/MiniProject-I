@@ -147,13 +147,16 @@ main.open {
     border-radius: 20px;
     outline: none;
     height: 40px;
-    background-color: black;
+    background-image: linear-gradient(to right, #000000, #000000e5, #000000a5);
     color: #ffffff;
     font-size: 18px;
     font-weight: bold;
+    text-transform: uppercase;
     cursor: pointer;
+    transition: .5s;
+    background-size: 200%;
 }
 
 .login-container input[type="submit"]:hover{
-    background-color:orange;
+    background-position: right;
 }
