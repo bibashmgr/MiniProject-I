@@ -94,8 +94,8 @@ nav {
     }
 
     .nav-links.open {
-        clip-path: circle(1000px at 5% 0%);
-        -webkit-clip-path: circle(1000px at 5% 0%);
+        clip-path: circle(1250px at 5% 0%);
+        -webkit-clip-path: circle(1250px at 5% 0%);
         pointer-events: all;
     }
 
@@ -103,14 +103,18 @@ nav {
         display: flex;
         padding: 35px;
     }
+
+    .nav-bar ul li a {
+        transition: all 0.3s ease 0s;
+    }
     
 }
 
 @media screen and (max-width:1250px){
 
     .nav-bar ul li {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 0px;
+        padding-right: auto;
     }
 
 }
