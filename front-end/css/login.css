@@ -6,9 +6,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 16px;
-    color: #ffffff;
+    color: white;
 }
 
 .nav {
@@ -17,7 +17,7 @@ body {
 
 .bar {
     display: flex;
-    background-color: gray;
+    background-color: white;
 }
 
 .logo{
@@ -36,14 +36,14 @@ body {
 .line {
     width: 30px;
     height: 5px;
-    background-color: white;
+    background-color: #a51d35;
     margin: 5px;
 }
 
 .nav-container {
     position: fixed;
     width: 100%;
-    background-color: gray;
+    background-color:white;
     clip-path: circle(100px at 97.5% -17.5%);
     -webkit-clip-path : circle(100px at 97.5% -17.5%);
     transition: all 1s ease-out;
@@ -75,11 +75,11 @@ body {
 .nav-bar ul li a {
     text-decoration: none;
     transition: all 0.3s ease 0s;
-    color: #ffffff;
+    color: #484848;
 }
 
 .nav-bar ul li a:hover {
-    color: #0088a9 ;
+    color: #a51d35 ;
 }
 
 main {
@@ -96,7 +96,7 @@ main.open {
 .login-container {
     width: 320px;
     height: 420px;
-    background-color:gray;
+    background-color: #484848;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -112,10 +112,6 @@ main.open {
     position: absolute;
     top: -50px;
     left: 35%;
-}
-
-.login-container{
-    border-radius: 5px;
 }
 
 .login-container h1 {
@@ -140,11 +136,11 @@ main.open {
 
 .login-container input[type="email"] , .login-container input[type="password"]{
     border: none;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid white;
     background: transparent;
     outline: none;
     height: 40px;
-    color: #ffffff;
+    color: white;
     font-size: 16px;
 }
 
@@ -153,8 +149,8 @@ main.open {
     border-radius: 20px;
     outline: none;
     height: 40px;
-    background-image: linear-gradient(to right, #000000, #000000e5, #000000a5);
-    color: #ffffff;
+    background-color:  #a51d35;
+    color:white;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
@@ -165,7 +161,8 @@ main.open {
 }
 
 .login-container input[type="submit"]:hover{
-    background-position: right;
+    background-color: white;
+    color: #484848;
 }
 
 .form-control small{
