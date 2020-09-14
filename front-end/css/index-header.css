@@ -8,7 +8,6 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color:#eeefe9;
 }
 
 header {
@@ -23,6 +22,7 @@ header {
 nav {
     display: flex;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .nav-bar {

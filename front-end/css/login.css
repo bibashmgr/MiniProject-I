@@ -59,6 +59,7 @@ body {
 .nav-bar {
    width: 50%;
    margin: auto;
+   letter-spacing: 2px;
 }
 
 .nav-bar ul {
