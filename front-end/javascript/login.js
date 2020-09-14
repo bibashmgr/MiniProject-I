@@ -17,8 +17,11 @@ const form = document.getElementById('form');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 
-form.addEventListener('submit', (e) =>{
-    e.preventDefault();
+
+form.addEventListener('submit', (event) =>{
+    event.preventDefault();
+
+    // a function to check whether the inputs are valid or not
     checkInputs();
 });
 
@@ -26,16 +29,39 @@ function checkInputs(){
     const emailValue = email.value.trim();
     const passwordValue = password.value.trim();
 
-    if(emailValue === ''){
-        setErrorFor(Email,'Email cannot be blank');
+    // validating email
+    if(emailValue===""){
+        setErrorMsg(email , "Email cannot be blank");
+    } else {
+        setSuccessMsg(email);
+    }
+
+    // validating password
+    if(passwordValue===""){
+        setErrorMsg(password , "Password cannot be blank");
+    } else if(passwordValue.length <= 5){
+        setErrorMsg(password , "Minimum 6 characters long");
+    } 
+    else if(passwordValue.length > 20){
+        setErrorMsg(password , "Maximum 20 characters long");
+    } else {
+        setSuccessMsg(password);
     }
 }
 
-function setErrorFor(input,message){
+function setErrorMsg(input,message){
     const formControl = input.parentElement;
-    const small = formControl.querySelector('small');
+    const smallMsg = formControl.querySelector('small');
 
-    small.innerText = message;
+    smallMsg.innerText = message;
 
-    formControl.className = 'form-control error';
+    formControl.className = "form-control error" ;
+    
+}
+
+function setSuccessMsg(input){
+    const formControl = input.parentElement;
+
+    formControl.className = "form-control success" ;
+    
 }

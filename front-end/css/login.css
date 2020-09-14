@@ -148,15 +148,6 @@ main.open {
     font-size: 16px;
 }
 
-.login-container .form-control small{
-    visibility: hidden;
-}
-
-.login-container .form-control.error small{
-    visibility: visible;
-    color: #e74c3c;
-}
-
 .login-container input[type="submit"]{
     border: none;
     border-radius: 20px;
@@ -175,4 +166,17 @@ main.open {
 
 .login-container input[type="submit"]:hover{
     background-position: right;
+}
+
+.form-control small{
+    visibility: hidden;
+}
+
+.form-control.error small{
+    visibility: visible;
+    color: #e74c3c;
+}
+
+.form-control.success small{
+    visibility: hidden;
 }
