@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+header {
+    background-color: #eeefe9;
+    text-align: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: fixed;
+    background-color: #eeefe9;
+    width: 100%;
+}
+
+.nav-bar {
+    flex: auto;
+}
+
+.nav-bar ul {
+    list-style: none;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    padding: 10px 40px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #484848;
+}
+
+.nav-bar ul li a:hover {
+    color: #a51d35;
+}
+
+.login-conatiner {
+    float: right;
+}
+
+.login {
+    cursor: pointer;
+}
+
+#check{
+    display: none;
+}
+
+label #btn ,label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background-color:#eeefe9;
+    border-radius: 3px;
+}
+
+label #btn{
+    left: 25px;
+    top:7px;
+    font-size: 35px;
+    color:#a51d35;
+    padding: 6px 12px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+label #cancel{
+    z-index:1111;
+    left:195px;
+    top:10px;
+    font-size: 30px;
+    color: #a51d35;
+    padding: 4px 9px;
+    visibility: hidden;
+    pointer-events: no;
+}
+
+@media screen and (max-width:950px) {
+
+    .logo {
+        z-index: 2;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    .nav-bar ul{
+        transition: all .5s ease;
+    }
+
+    .nav-bar ul li{
+        display: block;
+        padding: 35px 0px;
+    }
+
+    .nav-links {
+        position: fixed;
+        background-color: #eeefe9;
+        top: 125px;
+        left: -250px;
+        width: 250px;
+        height: 100%;
+        pointer-events: all;
+    }
+    
+    label #btn{
+        position: absolute;
+        visibility: visible;
+        pointer-events: all;
+        transition: all .5s;
+    }
+
+    label #cancel{
+        transition: all .2s;
+    }
+
+    #check:checked ~ .nav-bar ul {
+        left:0px;
+    }
+    
+    #check:checked ~ label #btn {
+        left:0px;
+        opacity: 0;
+        pointer-events: none;
+    }
+    
+    #check:checked ~ label #cancel {
+        left:195px;
+        visibility: visible;
+    }
+    
+}
+
+@media screen and (max-width:1250px){
+
+    .nav-bar ul li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
