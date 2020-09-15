@@ -15,23 +15,20 @@
 </head>
 <body>
     <header>
-
         <nav>
             <div class="bar">
                 <div class="logo-container">
                     <a class="logo-link" href="./index.html">
                         <img class="logo" src="../../media/image/logo-full.png" alt="Logo" />
                     </a>
-                </div>
-
-                <div class="hamburger">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
+                </div>   
             </div>
-
             <div class="nav-container">
+                <input type="checkbox" id="check" />
+                <label for="check">
+                    <i class="fas fa-bars" id="btn"></i>
+                    <i class="fas fa-times" id="cancel"></i>
+                </label>
                 <div class="nav-bar">
                     <ul class="nava-links">
                         <li><a href="./index.html" class="nav-link">HOME</a></li>
@@ -45,45 +42,32 @@
                 </div>
             </div>
         </nav>
-
     </header>
-
     <main>
-
         <div class="login-container">
             <div class="login-box">
                 <a class="login-link" href="./login.html">
                     <img class="login" src="../../media/image/login.png" alt="Login" />
                 </a>
             </div>
-            
             <h1>Welcome</h1>
-
             <form id="form" class="form">
-            
-            <div class="form-control">
-                <label for="email">Email:</label>
-                <input id="email" type="email" placeholder="Enter Email" autocomplete="off" />
-                <small>Error message</small>
-            </div>
-
-            <div class="form-control">
-                <label for="password">Password:</label>
-                <input id="password" type="password" placeholder="Enter Password" autocomplete="off" />
-                <small>Error message</small>
-            </div>
-
+                <div class="form-control">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" placeholder="Enter Email" autocomplete="off" />
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="password">Password:</label>
+                    <input id="password" type="password" placeholder="Enter Password" autocomplete="off" />
+                    <small>Error message</small>
+                </div>
                 <input type="submit" value="Login" />
-
             </form>
-
         </div>
-
     </main>
-
     <script type="text/javascript" src="../javascript/login.js">
 
     </script>
-    
 </body>
 </html>
