@@ -10,6 +10,7 @@ body {
     font-size: 16px;
 }
 
+/* navigation bar */
 header {
     background-color: #eeefe9;
     text-align: center;
@@ -166,6 +167,8 @@ label #cancel{
 
 }
 
+/* background image */
+
 .section one{
     position: relative;
 }
@@ -204,7 +207,6 @@ label #cancel{
     font-size: 2.75vh;
     top:42%;
     right: 13%;
-    opacity: 0.8;
 }
 
 @media screen and (max-width:1350px){
@@ -343,6 +345,8 @@ label #cancel{
     }
 }
 
+/* player-stats */
+
 .section-two{
     margin-top: 25px;
 }
@@ -405,6 +409,7 @@ label #cancel{
     left: 360px;
     color: #eeefe9;
     font-size: 40px;
+    cursor: pointer;
 }
 
 #next-btn-one{
@@ -413,4 +418,178 @@ label #cancel{
     right: 360px;
     color: #eeefe9;
     font-size: 40px;
+    cursor: pointer;
 }
+
+/* news and updates */
+
+.section-three{
+    margin-top: 50px;
+}
+
+.heading-two{
+    font-size: 5vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.theme-three{
+    margin-top: 50px;
+    background-color: #eeefe9;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.content-three{
+    position: absolute;
+    top: 1750px;
+    left: 150px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+}
+
+.grid-item{
+}
+
+.content-three-a{
+    width: 250px;
+    height: 250px;
+}
+
+.thumbnail{
+    background-image: url('../../media/image/news/thumbnail.jpg');
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+    margin-left: auto;
+    background-position: center;
+    transition:0.75s;
+    overflow: hidden;
+}
+
+.thumbnail:hover{
+    background-position: center;
+    transform: scale(1.075);
+}
+
+.thumbnail-cap{
+    color: #484848;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.thumbnail-cap a{
+    text-decoration: none;
+    color: #484848;
+    transition: all 0.25s ease;
+}
+
+.thumbnail-cap a:hover{
+    color: #a51d35;
+    font-size: 22px;
+}
+
+.link-to-news{
+    position: absolute;
+    top: 2325px;
+    left: 710px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.link-to-news a{
+    color: #a51d35;
+    font-size: 18px;
+    text-decoration: none;
+    transform:all 0.5s ease;
+}
+
+.link-to-news a:hover{
+    color: #484848;
+}
+
+/* gallery section */
+
+.section-four{
+    margin-top: 50px;
+}
+
+.heading-three{
+    font-size: 5vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.theme-four{
+    background-color: #eeefe9;
+    width: 100%;
+    height: 85vh;
+    margin-top: 75px;
+    position: relative;
+}
+
+.content-four{
+    position: absolute;
+    top: 2600px;
+    overflow: hidden;
+}
+
+.slides-container-two{
+}
+
+.slides-two{
+    display: flex;
+    margin-left: 350px;
+}
+
+.images-two{
+    width: 70%;
+    height: 70vh;
+}
+
+.side-bar-three{
+    position: absolute;
+    top: 2547.5px;
+    background-color: #eeefe9;
+    width: 351px;
+    height: 85vh;
+}
+
+.side-bar-four{
+    position: absolute;
+    top: 2547.5px;
+    background-color: #eeefe9;
+    width: 351px;
+    height: 85vh;
+    right: 0px;
+}
+
+#prev-btn-two{
+    position: absolute;
+    top:2850px;
+    left: 360px;
+    color: #eeefe9;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#next-btn-two{
+    position: absolute;
+    top:2850px;
+    right: 360px;
+    color: #eeefe9;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+/* footer(quick links) */
