@@ -1,5 +1,6 @@
 
-// player-stats
+// player-stats section
+
 const slidesOne = document.querySelector('.slides-one');
 const imagesOne = document.querySelectorAll('.slides-one img');
 
@@ -39,7 +40,7 @@ slidesOne.addEventListener('transitionend',() => {
     }
 });
 
-// gallery
+// gallery section
 
 const slidesTwo = document.querySelector('.slides-two');
 const imagesTwo = document.querySelectorAll('.slides-two img');

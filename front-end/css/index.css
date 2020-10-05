@@ -391,7 +391,7 @@ label #cancel{
 
 .side-bar-one{
     position: absolute;
-    top: 885px;
+    top: 880px;
     background-color: #eeefe9;
     width: 351px;
     height: 85vh;
@@ -399,7 +399,7 @@ label #cancel{
 
 .side-bar-two{
     position: absolute;
-    top: 885px;
+    top: 880px;
     background-color: #eeefe9;
     width: 351px;
     height: 85vh;
@@ -596,4 +596,4 @@ label #cancel{
     cursor: pointer;
 }
 
-/* footer(quick links) */
+/* footer-container */

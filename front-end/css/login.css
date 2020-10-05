@@ -8,8 +8,10 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 16px;
-    color: white;
+    color: #eeefe9;
 }
+
+/* navigation bar */
 
 .bar {
     background-color: #eeefe9;
@@ -112,6 +114,8 @@ label #cancel{
     margin-left: 250px;
 }
 
+/* main-container */
+
 main{
     width: 100%;
 }
@@ -199,3 +203,5 @@ main{
 .form-control.success small{
     visibility: hidden;
 }
+
+/* footer-container */
