@@ -360,6 +360,7 @@ label #cancel{
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
+    cursor: pointer;
 }
 
 .theme-two{
@@ -391,7 +392,7 @@ label #cancel{
 
 .side-bar-one{
     position: absolute;
-    top: 880px;
+    top: 885px;
     background-color: #eeefe9;
     width: 351px;
     height: 85vh;
@@ -399,7 +400,7 @@ label #cancel{
 
 .side-bar-two{
     position: absolute;
-    top: 880px;
+    top: 885px;
     background-color: #eeefe9;
     width: 351px;
     height: 85vh;
@@ -436,6 +437,7 @@ label #cancel{
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
+    cursor: pointer;
 }
 
 .theme-three{
@@ -532,6 +534,7 @@ label #cancel{
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
+    cursor: pointer;
 }
 
 .theme-four{
@@ -596,4 +599,114 @@ label #cancel{
     cursor: pointer;
 }
 
+.link-to-gallery{
+    position: absolute;
+    top: 3165px;
+    left: 710px;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.link-to-gallery a{
+    color: #a51d35;
+    font-size: 18px;
+    text-decoration: none;
+    transform:all 0.5s ease;
+}
+
+.link-to-gallery a:hover{
+    color: #484848;
+}
+
 /* footer-container */
+
+.footer-container{
+    position: relative;
+    top: 100px;
+    background-color: #eeefe9;
+    width: 100%;
+    height: 50vh;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-theme{
+}
+
+.footer-content{
+    position: absolute;
+    display: flex;
+    top: 75px;
+}
+
+.footer-content-a{
+    
+    background: url('../../media/image/logo-full.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 125px;
+    margin-right: 150px;
+    cursor: pointer;
+}
+
+.footer-content-b{
+    margin-left: 150px;
+    margin-right: 125px;
+}
+
+.quick-links{
+    color: #a51d35;
+    list-style: none;
+}
+
+.quick-links li{
+    padding-top: 10px;
+}
+
+.quick-link{
+    color: #484848;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.quick-link:hover{
+    color: #a51d35;
+    margin-left: 5px;
+}
+
+.footer-content-c{
+    color: #a51d35;
+    margin-left: 150px;
+    margin-right: 125px;
+    padding: 10px;
+}
+
+.footer-content-c div{
+    font-size: 22px;
+}
+
+.footer-content-c input{
+    padding: 7px;
+}
+
+#submit-btn{
+    font-size: 16px;
+    color: #eeefe9;
+    font-weight: bold;
+    background-color: #484848;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 0px 17.5px;
+    padding: 5px 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#submit-btn:hover{
+    background-color: #a51d35;
+}
