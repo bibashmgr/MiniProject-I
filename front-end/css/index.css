@@ -2,16 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #eeefe9;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
 }
 
 /* navigation bar */
 header {
+    font-family: "Poppins", sans-serif;
     background-color: #eeefe9;
     text-align: center;
 }
@@ -186,7 +187,7 @@ label #cancel{
 }
 
 .content-one-a{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Roboto Slab", serif;
     position: absolute;
     font-weight: bold;
     font-size: 6vh;
@@ -203,7 +204,7 @@ label #cancel{
 }
 
 .content-one-b{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Roboto Slab", serif;
     position: absolute;
     font-weight: 500;
     font-size: 2.75vh;
@@ -356,7 +357,7 @@ label #cancel{
 
 .heading-one{
     font-size: 5vh;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Roboto Slab", serif;
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
@@ -433,7 +434,7 @@ label #cancel{
 
 .heading-two{
     font-size: 5vh;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Roboto Slab", serif;
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
@@ -530,7 +531,7 @@ label #cancel{
 
 .heading-three{
     font-size: 5vh;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Roboto Slab", serif;
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
@@ -637,7 +638,7 @@ label #cancel{
 .footer-content{
     position: absolute;
     display: flex;
-    top: 75px;
+    top: 50px;
 }
 
 .footer-content-a{
@@ -645,17 +646,24 @@ label #cancel{
     background: url('../../media/image/logo-full.png');
     background-repeat: no-repeat;
     background-size: contain;
-    width: 300px;
-    height: 100px;
+    width: 400px;
+    height: 120px;
     margin-top: 50px;
-    margin-left: 125px;
-    margin-right: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
     cursor: pointer;
 }
 
 .footer-content-b{
     margin-left: 150px;
-    margin-right: 125px;
+    margin-right: 150px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.heading-of-QL{
+    font-family: "Roboto Slab", serif;
+    font-weight: bolder;
 }
 
 .quick-links{
@@ -683,10 +691,13 @@ label #cancel{
     margin-left: 150px;
     margin-right: 125px;
     padding: 10px;
+    font-family: "Poppins", sans-serif;
 }
 
 .footer-content-c div{
+    font-family: "Roboto Slab", serif;
     font-size: 22px;
+    font-weight: bolder;
 }
 
 .footer-content-c input{
